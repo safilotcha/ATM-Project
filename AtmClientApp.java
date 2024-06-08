@@ -10,7 +10,7 @@ public static void main(String[] args) {
     System.out.println("enter your pin");
     String pin = userPin.nextLine();
 
-    
+    while(pin){
     if(pin.length()==4){
         System.out.println("success");
     }else{
@@ -36,6 +36,7 @@ public static void main(String[] args) {
             System.out.println("success! you've withdrawn $"+withdrawing+ ". your remaining balance: " +one.withdraw(withdrawing));
         }
     }
+} 
 
 
 

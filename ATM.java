@@ -1,8 +1,8 @@
 import java.util.Scanner;
 
 public class ATM{
-    String requiredPin;
-    double balance;
+    private String requiredPin;
+    private double balance;
 
 
     public ATM(String requiredPin, double balance) {
